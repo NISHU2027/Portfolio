@@ -48,8 +48,10 @@ import { Link } from "react-scroll";
  * after a navigation item is chosen.
  */
 const navItems = [
-  { label: "About Me", section: "about" },
+  { label: "About Me", section: "about" },
+  { label: "Resume", section: "resume" },
   { label: "Skills", section: "skills" },
+  { label: "Experience", section: "experience" },
   { label: "Projects", section: "projects" },
   { label: "Contact", section: "contact" },
 ];

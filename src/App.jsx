@@ -1,11 +1,13 @@
 import "./App.css";
 import AboutMeMain from "./components/aboutMeSection/AboutMeMain";
 import ContactMain from "./components/contactMeSection/ContactMain";
+import ExperienceMain from "./components/experienceSection/ExperienceMain";
 import FloatingBlobs from "./components/FloatingBlobs";
 import FooterMain from "./components/footer/FooterMain";
 import HeroMain from "./components/heroSection/HeroMain.jsx";
 import NavbarMain from "./components/navbar/NavbarMain";
 import ProjectsMain from "./components/projectSection/ProjectsMain";
+import ResumeMain from "./components/resumeSection/ResumeMain";
 import SkillsMain from "./components/skillsSection/SkillsMain";
 
 function App() {
@@ -24,7 +26,13 @@ function App() {
         <AboutMeMain />
 
         <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-white to-transparent mb-5"></div>
+        <ResumeMain />
+
+        <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-white to-transparent mb-5"></div>
         <SkillsMain />
+
+        <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-white to-transparent"></div>
+        <ExperienceMain />
 
         <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-white to-transparent"></div>
         <ProjectsMain />
