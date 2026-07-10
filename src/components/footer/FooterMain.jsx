@@ -9,11 +9,11 @@ const Links = [
 
 const FooterMain = () => {
   return (
-    <footer className="bg-gray-900 text-gray-400 px-6 md:px-12 py-10">
+    <footer className="bg-black text-gray-300 px-6 md:px-12 py-10">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
         {/* Left: Name */}
-        <p className="text-2xl font-semibold tracking-wide text-white">
-          Alok Giri
+        <p className="text-2xl font-bold tracking-wide text-white">
+          AG
         </p>
 
         {/* Center: Navigation */}
@@ -22,7 +22,7 @@ const FooterMain = () => {
             <li key={index}>
               <a
                 href={`#${item.section}`}
-                className="hover:text-white transition duration-300"
+                className="hover:text-cyan-300 transition duration-300"
               >
                 {item.link}
               </a>

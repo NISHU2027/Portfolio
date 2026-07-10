@@ -14,7 +14,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
       } justify-end`}
     >
       <div className="flex flex-col justify-center items-center">
-        <h2 className="md:text-3xl text-2xl text-cyan-300 font-extrabold">
+        <h2 className="md:text-3xl text-2xl text-cyan-400 font-extrabold">
           {name}
         </h2>
         <h2
@@ -27,7 +27,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
         <a
           href={link}
           target="_blank"
-          className={`text-lg flex gap-2 items-center text-cyan-300 hover:scale-110 hover:text-sky-500 transition-all duration-500 cursor-pointer justify-self-center ${
+          className={`text-lg flex gap-2 items-center text-cyan-400 hover:scale-110 hover:text-blue-300 transition-all duration-500 cursor-pointer justify-self-center ${
             align == "left" ? "md:justify-self-end" : "justify-self-start"
           }`}
         >
@@ -36,7 +36,7 @@ const SingleProject = ({ name, year, align, image, link }) => {
         </a>
       </div>
       <div className="max-h-[200px] max-w-[400px] rounded-xl overflow-hidden hover:scale-105 transform transition-all duration-500 relative border border-white">
-        <div className="w-full h-full bg-cyan opacity-50 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block hidden"></div>
+        <div className="w-full h-full bg-cyan-500 opacity-0 absolute top-0 left-0 hover:opacity-0 transition-all duration-500 md:block hidden"></div>
         <img
           src={image}
           alt="Project-1"

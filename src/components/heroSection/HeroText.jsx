@@ -11,24 +11,24 @@ const HeroText = () => {
         max-w-xl
       "
     >
-      <motion.h2
-        variants={fadeIn("down", 0.2)}
-        initial="hidden"
-        whileInView="show"
-        viewport={{ once: false, amount: 0 }}
-        className="text-cyan-300 uppercase text-lg lg:text-2xl"
-      >
-        Full Stack Web Developer
-      </motion.h2>
+<motion.h2
+          variants={fadeIn("down", 0.2)}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0 }}
+          className="text-cyan-400 uppercase text-lg lg:text-2xl"
+        >
+          Full Stack Web Developer
+        </motion.h2>
 
       <motion.h1
         variants={fadeIn("right", 0.2)}
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0 }}
-        className="text-white font-bold text-4xl md:text-5xl lg:text-6xl"
+        className="text-white font-extrabold text-4xl md:text-5xl lg:text-6xl"
       >
-        Alok Giri
+        ALOK GIRI
       </motion.h1>
 
       <motion.p

@@ -12,7 +12,7 @@ import SkillsMain from "./components/skillsSection/SkillsMain";
 
 function App() {
   return (
-    <div className="relative w-screen min-h-screen overflow-x-hidden bg-gradient-to-tl from-[#1A1A2E] via-[#16213E] to-[#0F3460]">
+    <div className="relative w-screen min-h-screen overflow-x-hidden bg-gradient-to-tl from-[#0F172A] via-[#1E293B] to-[#0F172A]">
       
       {/* Background animated blobs */}
       <FloatingBlobs className="pointer-events-none" />

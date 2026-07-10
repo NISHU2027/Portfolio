@@ -21,7 +21,7 @@ const ResumeMain = () => {
         viewport={{ once: false, amount: 0 }}
         className="max-w-[800px] mx-auto flex flex-col items-center gap-8"
       >
-        <div className="w-full max-w-[800px] h-[600px] bg-white/5 rounded-xl border border-cyan-300/30 overflow-hidden">
+<div className="w-full max-w-[800px] h-[600px] bg-white/5 rounded-xl border border-cyan-400/30 overflow-hidden">
           <iframe
             src="/alok%20resume.pdf"
             title="Resume Preview"
@@ -29,11 +29,11 @@ const ResumeMain = () => {
             loading="lazy"
           />
         </div>
-        <div className="flex flex-wrap justify-center gap-4">
-          <a
+        <div className="flex flex-wrap justify-center gap-4 mb-10">
+<a
             href="/alok%20resume.pdf"
             download
-            className="border border-cyan-300 rounded-full py-3 px-6 text-lg flex items-center gap-2 hover:bg-cyan-300 transition-all duration-500 cursor-pointer text-white hover:text-black"
+            className="border border-cyan-400 rounded-full py-3 px-6 text-lg flex items-center gap-2 hover:bg-cyan-400 transition-all duration-500 cursor-pointer text-white hover:text-black"
           >
             <FiDownload />
             Download Resume
@@ -42,7 +42,7 @@ const ResumeMain = () => {
             href="/alok%20resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-cyan-300 rounded-full py-3 px-6 text-lg flex items-center gap-2 hover:bg-cyan-300 transition-all duration-500 cursor-pointer text-white hover:text-black"
+            className="border border-cyan-400 rounded-full py-3 px-6 text-lg flex items-center gap-2 hover:bg-cyan-400 transition-all duration-500 cursor-pointer text-white hover:text-black"
           >
             <FiEye />
             View Resume

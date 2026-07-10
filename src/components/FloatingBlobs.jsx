@@ -115,14 +115,14 @@ const useBlobs = () =>
   useMemo(
     () =>
       [
-        { color: "bg-[#2978B5]", size: "w-52 h-52", delay: 0, speed: 30 }, // was 20
-        { color: "bg-[#4D96FF]", size: "w-44 h-44", delay: 3, speed: 27 }, // was 18
-        { color: "bg-[#00C2FF]", size: "w-60 h-60", delay: 5, speed: 33 }, // was 22
-        { color: "bg-[#74C0FC]", size: "w-36 h-36", delay: 7, speed: 32 }, // was 21
-        { color: "bg-[#38BDF8]", size: "w-48 h-48", delay: 2, speed: 29 }, // was 19
-        { color: "bg-[#0EA5E9]", size: "w-40 h-40", delay: 4, speed: 30 }, // was 20
-        { color: "bg-[#60A5FA]", size: "w-56 h-56", delay: 6, speed: 36 }, // was 24
-        { color: "bg-[#3B82F6]", size: "w-32 h-32", delay: 1, speed: 27 }, // was 18
+        { color: "bg-cyan-500", size: "w-52 h-52", delay: 0, speed: 30 },
+        { color: "bg-sky-500", size: "w-44 h-44", delay: 3, speed: 27 },
+        { color: "bg-indigo-500", size: "w-60 h-60", delay: 5, speed: 33 },
+        { color: "bg-blue-500", size: "w-36 h-36", delay: 7, speed: 32 },
+        { color: "bg-violet-500", size: "w-48 h-48", delay: 2, speed: 29 },
+        { color: "bg-purple-500", size: "w-40 h-40", delay: 4, speed: 30 },
+        { color: "bg-teal-500", size: "w-56 h-56", delay: 6, speed: 36 },
+        { color: "bg-emerald-500", size: "w-32 h-32", delay: 1, speed: 27 },
       ].map((b) => {
         const frames = Array.from({ length: 6 }, () => ({
           top: randomPerc(-10, 90),

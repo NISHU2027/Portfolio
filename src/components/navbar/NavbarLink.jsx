@@ -67,12 +67,12 @@ const NavbarLink = ({ onLinkClick = () => {} }) => (
           duration={500}
           offset={-100}           /* keep header height clear */
           onClick={onLinkClick}   /* closes mobile menu */
-          className="cursor-pointer transition-colors duration-300 hover:text-cyan-300"
+          className="cursor-pointer transition-colors duration-300 hover:text-cyan-400"
         >
           {label}
         </Link>
         <span
-          className="block h-[1px] w-0 bg-cyan-300 transition-[width] duration-300
+          className="block h-[1px] w-0 bg-cyan-400 transition-[width] duration-300
                      group-hover:w-full"
         />
       </li>

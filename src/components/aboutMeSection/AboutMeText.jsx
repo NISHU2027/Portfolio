@@ -3,7 +3,7 @@ import React from "react";
 const AboutMeText = () => {
   return (
     <div className="flex flex-col md:items-start items-center md:text-left text-center">
-      <h1 className="text-6xl text-cyan-300 mb-10">About Me</h1>
+      <h1 className="text-6xl text-cyan-400 mb-10 font-extrabold">About Me</h1>
       <p className="text-white md:text-left text-center p-1 leading-relaxed max-w-3xl">
         <span className="font-bold text-2xl">
           👨‍💻 Full-Stack Developer | MERN Stack | AI Enthusiast
@@ -25,7 +25,7 @@ const AboutMeText = () => {
       </p>
       <div className="flex gap-4 mt-10 md:self-start self-center">
         <button
-          className="border border-cyan-300 rounded-full py-2 px-4 text-lg flex items-center hover:bg-cyan-300 transition-all duration-500 cursor-pointer text-white hover:text-black"
+          className="border border-cyan-400 rounded-full py-2 px-4 text-lg flex items-center hover:bg-cyan-400 transition-all duration-500 cursor-pointer text-white hover:text-black"
           onClick={() =>
             document
               .getElementById("projects")
@@ -35,7 +35,7 @@ const AboutMeText = () => {
           My Projects
         </button>
         <button
-          className="border border-cyan-300 rounded-full py-2 px-4 text-lg flex items-center hover:bg-cyan-300 transition-all duration-500 cursor-pointer text-white hover:text-black"
+          className="border border-cyan-400 rounded-full py-2 px-4 text-lg flex items-center hover:bg-cyan-400 transition-all duration-500 cursor-pointer text-white hover:text-black"
           onClick={() =>
             document
               .getElementById("resume")

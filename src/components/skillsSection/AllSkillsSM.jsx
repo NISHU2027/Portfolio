@@ -56,9 +56,9 @@ const AllSkillsSM = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.7 }}
-            className="flex flex-col items-center hover:shadow-2xl shadow-blue-400 pt-2"
+            className="flex flex-col items-center hover:shadow-2xl shadow-cyan-500 pt-2"
           >
-            {item.icon && <item.icon className="text-7xl text-cyan-300 " />}
+            {item.icon && <item.icon className="text-7xl text-cyan-500 " />}
             <p className="text-center mt-4 text-white">{item.skill}</p>
           </motion.div>
         );

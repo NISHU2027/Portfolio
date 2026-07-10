@@ -34,7 +34,7 @@ const NavbarBtn = () => (
     }
     className="flex w-full sm:w-auto items-center justify-center sm:justify-start gap-2
                rounded-full px-6 py-3 sm:px-5 sm:py-2 text-xs sm:text-sm font-bold
-               text-white bg-gradient-to-br from-[#00C2FF] to-[#2978B5]
+               text-white bg-gradient-to-br from-cyan-500 to-blue-600
                border border-cyan-400 shadow-lg shadow-cyan-500/30
                transition-transform duration-200 hover:scale-105
                focus:outline-none focus:ring-2 focus:ring-cyan-300"

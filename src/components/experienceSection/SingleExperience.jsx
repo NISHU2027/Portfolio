@@ -13,7 +13,7 @@ const SingleExperience = ({ jobTitle, company, year, align, details }) => {
       } justify-end`}
     >
       <div className="flex flex-col justify-center items-center">
-        <h2 className="md:text-3xl text-2xl text-cyan-300 font-extrabold">
+<h2 className="md:text-3xl text-2xl text-cyan-400 font-extrabold">
           {jobTitle}
         </h2>
         <h3 className="text-xl text-white font-medium mt-2">{company}</h3>
@@ -36,9 +36,9 @@ const SingleExperience = ({ jobTitle, company, year, align, details }) => {
           ))}
         </ul>
       </div>
-      <div className="w-16 h-16 rounded-full bg-cyan-300/20 flex items-center justify-center border border-cyan-300">
+<div className="w-16 h-16 rounded-full bg-cyan-500/20 flex items-center justify-center border border-cyan-400">
         <svg
-          className="w-10 h-10 text-cyan-300"
+          className="w-10 h-10 text-cyan-400"
           fill="currentColor"
           viewBox="0 0 20 20"
         >

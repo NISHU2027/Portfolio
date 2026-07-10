@@ -48,10 +48,10 @@ const NavbarMain = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav
-      className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-[#34495E]/90  /* translucent slate */
-                 border-b border-[#BDC3C7]/20 shadow-lg py-3 px-2"
-    >
+<nav
+className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-black/90
+                   border-b border-cyan-400/20 shadow-lg py-3 px-2"
+     >
       <div className="max-w-[1300px] mx-auto flex items-center justify-between px-6 py-2">
         <NavbarLogo />
         <div className="hidden lg:flex items-center gap-8">
@@ -69,7 +69,7 @@ const NavbarMain = () => {
       </div>
 
       {menuOpen && (
-        <div className="lg:hidden overflow-hidden bg-[#34495E]/95 backdrop-blur-md border-t border-[#BDC3C7]/20">
+        <div className="lg:hidden overflow-hidden bg-black/95 backdrop-blur-md border-t border-cyan-400/20">
           <div className="px-6 py-4 flex flex-col gap-6 text-center">
             <NavbarLink onClick={() => setMenuOpen(false)} />
             <NavbarBtn />

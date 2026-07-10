@@ -27,17 +27,17 @@ const HeroPic = () => {
 
       {/* Animated Circle */}
       <div className="absolute flex items-center justify-center animate-pulse z-0">
-        <LuCircle
-          className="
-            text-cyan-300 stroke-[0.5]
-            animate-[spin_20s_linear_infinite]
-            w-[200px] h-[200px]
-            sm:w-[260px] sm:h-[260px]
-            md:w-[320px] md:h-[320px]
-            lg:w-[380px] lg:h-[380px]
-            xl:w-[440px] xl:h-[440px]
-          "
-        />
+<LuCircle
+            className="
+              text-cyan-400 stroke-[0.5]
+              animate-[spin_20s_linear_infinite]
+              w-[200px] h-[200px]
+              sm:w-[260px] sm:h-[260px]
+              md:w-[320px] md:h-[320px]
+              lg:w-[380px] lg:h-[380px]
+              xl:w-[440px] xl:h-[440px]
+            "
+          />
       </div>
     </motion.div>
   );

@@ -24,7 +24,7 @@ const NavbarLogo = () => (
   >
     {/* full name on ≥ 640 px, initials on smaller screens */}
     <h1 className="hidden sm:block text-white font-extrabold text-2xl tracking-wide">
-      Alok&nbsp;Giri
+      AG&nbsp;
     </h1>
     <h1 className="sm:hidden text-white font-extrabold text-2xl">AG</h1>
   </button>

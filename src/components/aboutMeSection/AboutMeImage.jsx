@@ -12,7 +12,7 @@ const AboutMeImage = ({ src = "/aboutimg.jpg", alt = "Portrait of the author" })
     >
       {/* Ambient glow (blurred radial gradient) */}
       <div aria-hidden className="absolute inset-0 flex justify-center items-center -z-20">
-        <div className="h-80 w-80 bg-gradient-to-br from-purple-400 via-cyan-400 to-indigo-500 dark:from-purple-700 dark:via-cyan-700 dark:to-indigo-900 rounded-full blur-3xl opacity-60 rotate-6" />
+        <div className="h-80 w-80 bg-gradient-to-br from-cyan-500 via-blue-500 to-indigo-600 dark:from-cyan-400 dark:via-blue-400 dark:to-indigo-500 rounded-full blur-3xl opacity-60 rotate-6" />
       </div>
 
       {/* Glass‑card backdrop */}
