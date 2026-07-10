@@ -17,21 +17,21 @@ const projects = [
     year: "JUL2026",
     align: "left",
     image: "/dpi.png",
-    link: "https://prep-wise-n0gs.onrender.com",
+    link: "https://github.com/NISHU2027/Deep-Packet-Inspection-.git",
   },
   {
     name: "Wander Wise",
     year: "NOV2025",
     align: "right",
     image: "/wander wise.png",
-    link: "https://flex-cart.onrender.com",
+    link: "https://github.com/NISHU2027/wanderwise-safe-ui.git",
   },
   {
     name: "Shopora",
     year: "AUG2025",
     align: "left",
     image: "/Shopora.png",
-    link: "https://chat-app-tu33.onrender.com",
+    link: "https://github.com/NISHU2027/Shopora.git",
   },
   
 ];
